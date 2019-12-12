@@ -1,4 +1,6 @@
-# lvt
+# Levanter
+
+My custom homepage/new-tab page.
 
 ## Project setup
 ```
