@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <section class="hero is-fullheight is-light is-bold">
+    <section class="hero is-fullheight is-dark">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">{{time}}</h1>
@@ -18,7 +18,7 @@
 import cfg from "@/config.js"
 
 export default {
-  name: "home",
+  name: "tab",
   data() {
     return {
       searchterm: "",
@@ -61,6 +61,6 @@ export default {
   bottom: 0;
   left: 0;
   margin: 8px;
-  color: rgba(0,0,0,.25)
+  color: rgba(255,255,255,.25)
 }
 </style>
